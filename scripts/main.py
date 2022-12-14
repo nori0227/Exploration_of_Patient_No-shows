@@ -98,6 +98,10 @@ merge_on_date.shape
 merge_on_date_zipcode.to_csv('./data/master1_merged_on_accidentdate&zipcode.csv')
 merge_on_date.to_csv('./data/master2_merged_on_accidentdate&zipcode.csv')
 
+# exporting dataset for visualizations in  streamlit
+noshow = df1[['patient_id_2', 'patient_age', 'patient_gender', 'appointment_start_time', 'appointment_yosi_noshow1', 'appointment_yosi_noshow2', 'appointment_type', 'appintmentWithin5DayHoliday', 'appintmentWithin7DayHoliday', 'appointment_start_time_hour']]
+noshow.to_csv('./data/master3_streamlit.csv')
+
 
 
 
