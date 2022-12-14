@@ -1,0 +1,16 @@
+if (patient_age_groupper <= 0.5) and (practice_id > 301251.5) and (id > 630153.0) then response: 37.76 | based on 43,883 samples
+
+if (patient_age_groupper > 0.5) and (patient_age_groupper <= 1.5) and (patient_id > 99583.0) then response: 3.633 | based on 12,449 samples
+
+if (patient_age_groupper > 0.5) and (patient_age_groupper > 1.5) and (id <= 623979.0) then response: 14.396 | based on 4,877 samples
+
+if (patient_age_groupper > 0.5) and (patient_age_groupper <= 1.5) and (patient_id <= 99583.0) then response: 7.619 | based on 4,145 samples
+
+if (patient_age_groupper <= 0.5) and (practice_id <= 301251.5) and (appointment_duration > 17.5) then response: 44.068 | based on 3,161 samples
+
+if (patient_age_groupper <= 0.5) and (practice_id <= 301251.5) and (appointment_duration <= 17.5) then response: 56.702 | based on 3,045 samples
+
+if (patient_age_groupper <= 0.5) and (practice_id > 301251.5) and (id <= 630153.0) then response: 19.955 | based on 1,889 samples
+
+if (patient_age_groupper > 0.5) and (patient_age_groupper > 1.5) and (id > 623979.0) then response: 14.772 | based on 1,551 samples
+

@@ -1,0 +1,235 @@
+{
+    "columns": [
+        "id",
+        "patient_id_2",
+        "practice_id",
+        "appointment_id",
+        "patient_id",
+        "appointment_date",
+        "appointment_start_time",
+        "appointment_duration",
+        "appointment_type",
+        "appointment_status",
+        "appointment_date_time",
+        "appointment_last_modified_date",
+        "appointment_scheduled_date",
+        "appointment_yosi_noshow1",
+        "appointment_yosi_noshow2",
+        "custom_client",
+        "custom_client_site",
+        "client_site",
+        "patient_dob",
+        "patient_zipcode_x",
+        "patient_gender",
+        "data_collect",
+        "patient_age_groupper",
+        "appointment_date_qt",
+        "appointment_date_month",
+        "appointment_date_year",
+        "appintmentWithin3DayHoliday",
+        "appintmentWithin5DayHoliday",
+        "appintmentWithin7DayHoliday",
+        "appointment_start_time_groupper",
+        "appointment_start_time_hour",
+        "zipcode",
+        "weather_conditions",
+        "weather_icon",
+        "geocode_zip",
+        "geocode_city",
+        "geocode_county",
+        "geocode_state",
+        "geocode_stusab",
+        "geocode_latitude",
+        "geocode_longitude",
+        "geocode_lengthlife",
+        "geocode_healthybehaviors",
+        "geocode_clinicalcare",
+        "geocode_socioeconomic",
+        "geocode_physicalenv"
+    ],
+    "rows": 100000,
+    "cols": 46,
+    "target_is_numeric": true,
+    "columns_info": {
+        "id": [
+            "scale"
+        ],
+        "patient_id_2": [
+            "text_transform"
+        ],
+        "practice_id": [
+            "scale"
+        ],
+        "appointment_id": [
+            "scale"
+        ],
+        "patient_id": [
+            "scale"
+        ],
+        "appointment_date": [
+            "categorical",
+            "many_categories"
+        ],
+        "appointment_start_time": [
+            "categorical",
+            "many_categories"
+        ],
+        "appointment_duration": [
+            "scale"
+        ],
+        "appointment_type": [
+            "categorical",
+            "many_categories"
+        ],
+        "appointment_status": [
+            "categorical",
+            "few_categories"
+        ],
+        "appointment_date_time": [
+            "text_transform"
+        ],
+        "appointment_last_modified_date": [
+            "text_transform"
+        ],
+        "appointment_scheduled_date": [
+            "text_transform"
+        ],
+        "appointment_yosi_noshow1": [
+            "categorical",
+            "few_categories"
+        ],
+        "appointment_yosi_noshow2": [
+            "categorical",
+            "few_categories"
+        ],
+        "custom_client": [
+            "scale"
+        ],
+        "custom_client_site": [
+            "scale"
+        ],
+        "client_site": [
+            "categorical",
+            "many_categories"
+        ],
+        "patient_dob": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "patient_zipcode_x": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "patient_gender": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "data_collect": [
+            "categorical",
+            "few_categories"
+        ],
+        "patient_age_groupper": [
+            "categorical",
+            "few_categories"
+        ],
+        "appointment_date_qt": [
+            "scale"
+        ],
+        "appointment_date_month": [
+            "scale"
+        ],
+        "appointment_date_year": [
+            "scale"
+        ],
+        "appintmentWithin3DayHoliday": [],
+        "appintmentWithin5DayHoliday": [],
+        "appintmentWithin7DayHoliday": [],
+        "appointment_start_time_groupper": [
+            "categorical",
+            "few_categories"
+        ],
+        "appointment_start_time_hour": [
+            "scale"
+        ],
+        "zipcode": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "weather_conditions": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "weather_icon": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_zip": [
+            "missing_values",
+            "scale"
+        ],
+        "geocode_city": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "geocode_county": [
+            "missing_values",
+            "categorical",
+            "many_categories"
+        ],
+        "geocode_state": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_stusab": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_latitude": [
+            "missing_values",
+            "scale"
+        ],
+        "geocode_longitude": [
+            "missing_values",
+            "scale"
+        ],
+        "geocode_lengthlife": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_healthybehaviors": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_clinicalcare": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_socioeconomic": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ],
+        "geocode_physicalenv": [
+            "missing_values",
+            "categorical",
+            "few_categories"
+        ]
+    },
+    "target_info": [
+        "scale"
+    ],
+    "n_features": 46,
+    "is_sample_weighted": false
+}
