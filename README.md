@@ -1,8 +1,8 @@
 # ahi-competition
 HHA 507 Final Assignment
 
-## Objective: To understand no shows
-To use a dataset that provided information related to no shows for clinical appointments across small healthcare clinics across the country. 
+## Objective: Understanding the factors affecting no shows
+Use a dataset that provided information related to no shows for clinical appointments across small healthcare clinics across the country. 
 
 ## Research:
 Literature review articles were researched that studied the non-clinical variables impacting patient no show
