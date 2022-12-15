@@ -17,11 +17,13 @@ Scripts for data cleaning and enhancements are available in the folder.
 
 The car crash dataset was enriched with the baseline dataset on zipcode, and then on zipcode and date.
 
-Scripts for streamlit visualizations are also available in this folder along with images of visualizations.
+Scripts for Streamlit visualizations are also available in this folder along with images of visualizations.
 
 A ML statistical analysis was conducted using the linear regression studying the effect of patient age on no show.
 
-A traditional statistical test was conducted ---
+A traditional one way statistical test was conducted in R on patient age.
+
+
 
 ## Insights
 Results of the ML statistical analysis -ML JAR are available in this folder.
