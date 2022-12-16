@@ -1,4 +1,5 @@
-MLJAR ANALYSIS: Focused around regression studying the gender of patient and noshow as the continuous variable - The Xgboost was selected as the best model type as the metric value was 11.3922, whereas the metric value for baseline model was 19.9162. Thus, the Xgboost performed better than the baseline model.        - There were two values that equaled to 1, one value that equaled to 0.925 and one equaled to 0.875 in the spearman correlations of models. The closer the AUC value is to 1, the more accurate the model is.
+## MLJAR ANALYSIS: 
+Focused around regression studying the gender of patient and noshow as the continuous variable - The Xgboost was selected as the best model type as the metric value was 11.3922, whereas the metric value for baseline model was 19.9162. Thus, the Xgboost performed better than the baseline model.        - There were two values that equaled to 1, one value that equaled to 0.925 and one equaled to 0.875 in the spearman correlations of models. The closer the AUC value is to 1, the more accurate the model is.
 
 
 
